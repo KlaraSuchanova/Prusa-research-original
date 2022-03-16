@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica',sans-serif;
+}
+
+
+/*Navigation*/
+header {
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.row {
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+.nav-background {
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+    color: rgb(224, 224, 224);
+}
+ 
+.logo {
+    position: absolute;
+    height: 48px;
+    margin: 5px;
+    z-index: 100;
+}
+
+nav ul {
+    margin-left: 100px;
+    float: left;
+}
+
+nav ul li {
+    display: inline-block;
+    
+    margin-left: 30px;
+    list-style-type: none;
+    /*float: left;*/
+    /*white-space: nowrap;*/
+    /*text-align: center;*/
+    line-height: 60px;
+    font-size: 15px;
+    cursor: pointer;
+}  
+    
+nav ul li a {
+    color: #2d2c34;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color:rgb(250, 104, 49);
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+/*Main*/
+
+.container {
+    /*display: flex;
+    flex-direction: row;
+    justify-content: space-around;*/
+    background: url(Images/background.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+
+.text-section {
+    display: inline-block;
+    margin: 100px 80px;
+    color: #fff;
+}
+
+.text-section h2 {
+    /*display: inline-block;*/
+    /*text-align: left;*/
+    /*margin-top: 80px;*/
+    font-size: 40px; 
+}
+
+.text-section h2 span {
+    font-size: 20px;
+}
+
+/*.photo-section {
+    display: inline-block;
+    margin-right: 5%;
+    padding-top: 20px;
+}
+
+.photo-section img {
+    /*display: flex;
+    margin-right: 100px;
+    position: relative;
+    top: 60px;
+    width: auto;
+    height: 400px;   
+}*/
+
+.btn {
+    display: inline-block;
+    margin-top: 60px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(250, 104, 49);
+    padding: 10px 20px;
+} 
+
+/*.secondPhoto {
+    padding: 40px;
+    display: block;
+    position: absolute;
+    margin-left: 65%;
+}
+
+.secondPhoto img {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: 400px;
+}   
+
+.secondPhoto h2 {
+    margin-top: 30px;
+}*/
+
+/*Footer*/
+
+footer {
+    background: #c1c0c2;
+}
+
+footer p {
+    font-size: 20px;
+    text-align: center;
+    color: #7c7c7c;  
+}
