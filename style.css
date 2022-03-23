@@ -96,10 +96,18 @@ nav ul li a:hover {
 
 /**************Section2**************/ 
 
-img {
-    display: block;
-    background: #fff;
+.section2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3px;
+    margin-top: 3px;
 }
+
+.add img {  
+    max-width: 100%;   
+}
+
+/**************Section3**************/ 
 
 /*********Footer***********/
 
