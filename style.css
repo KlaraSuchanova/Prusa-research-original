@@ -66,6 +66,7 @@ nav ul li a:hover {
 .section1 {
     background: url(Images/background.jpg);
     background-size: cover;
+    background-position: center;
     z-index: -1;
 }
 
