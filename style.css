@@ -5,16 +5,14 @@
     font-family: 'Helvetica',sans-serif;
 }
 
-
-/*Navigation*/
-header {
-    border-bottom: 1px solid rgb(224, 224, 224);
-}
-
 .row {
     max-width: 1280px;
     margin: 0 auto;
-    
+}
+
+/************Navigation***************/
+header {
+    border-bottom: 1px solid rgb(224, 224, 224);
 }
 
 .nav-background {
@@ -38,12 +36,8 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    
     margin-left: 30px;
     list-style-type: none;
-    /*float: left;*/
-    /*white-space: nowrap;*/
-    /*text-align: center;*/
     line-height: 60px;
     font-size: 15px;
     cursor: pointer;
@@ -66,12 +60,10 @@ nav ul li a:hover {
     clear: both;
     }
 
-/*Main*/
+/****************Main****************/
+/**************Section1**************/
 
-.container {
-    /*display: flex;
-    flex-direction: row;
-    justify-content: space-around;*/
+.section1 {
     background: url(Images/background.jpg);
     background-size: cover;
     z-index: -1;
@@ -84,30 +76,12 @@ nav ul li a:hover {
 }
 
 .text-section h2 {
-    /*display: inline-block;*/
-    /*text-align: left;*/
-    /*margin-top: 80px;*/
     font-size: 40px; 
 }
 
 .text-section h2 span {
     font-size: 20px;
 }
-
-/*.photo-section {
-    display: inline-block;
-    margin-right: 5%;
-    padding-top: 20px;
-}
-
-.photo-section img {
-    /*display: flex;
-    margin-right: 100px;
-    position: relative;
-    top: 60px;
-    width: auto;
-    height: 400px;   
-}*/
 
 .btn {
     display: inline-block;
@@ -119,25 +93,15 @@ nav ul li a:hover {
     padding: 10px 20px;
 } 
 
-/*.secondPhoto {
-    padding: 40px;
+
+/**************Section2**************/ 
+
+img {
     display: block;
-    position: absolute;
-    margin-left: 65%;
+    background: #fff;
 }
 
-.secondPhoto img {
-    display: block;
-    margin: 0 auto;
-    width: auto;
-    height: 400px;
-}   
-
-.secondPhoto h2 {
-    margin-top: 30px;
-}*/
-
-/*Footer*/
+/*********Footer***********/
 
 footer {
     background: #c1c0c2;
