@@ -88,7 +88,7 @@ nav ul li a:hover {
     font-weight: 300;
 }
 
-.btn {
+.btn-section1 {
     display: inline-block;
     margin-top: 60px;
     color: #fff;
@@ -160,6 +160,46 @@ nav ul li a:hover {
     letter-spacing: -1px;
 }
 
+.container-section4 {
+    margin: 20px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    justify-content: space-evenly;
+    
+}
+
+.printer-name-button {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(224, 224, 224);
+    align-items: baseline;
+    
+}
+
+.printer-name-button img {
+    width: 100%;
+    height: 100%;
+    padding: 5px 30px;
+    object-fit: contain;
+}
+
+.printer-name-button p {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.printer-name-button a {
+    width: fit-content;
+    margin-bottom: 30px;
+    color: rgb(250, 104, 49);
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid rgb(250, 104, 49);
+    padding: 10px 20px;
+}
 
 /*********Footer***********/
 
