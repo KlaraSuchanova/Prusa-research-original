@@ -25,7 +25,7 @@ header {
 .logo {
     position: absolute;
     height: 48px;
-    margin: 5px;
+    margin: 8px 5px 8px 5px;
     z-index: 100;
     cursor: pointer;
 }
@@ -96,7 +96,12 @@ nav ul li a:hover {
     text-decoration: none;
     background-color: rgb(250, 104, 49);
     padding: 10px 20px;
+    border-radius: 3px;
 } 
+
+.btn-section1:hover {
+    background: rgb(224, 93, 45);
+}
 
 /**************Section2**************/ 
 
@@ -105,7 +110,6 @@ nav ul li a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 3px;
     margin-top: 3px;
-    
 }
 
 .add img {  
@@ -166,7 +170,6 @@ nav ul li a:hover {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 30px;
     justify-content: space-evenly;
-    
 }
 
 .printer-name-button {
@@ -175,8 +178,14 @@ nav ul li a:hover {
     border: 1px solid rgb(224, 224, 224);
     justify-content: center;
     align-items: center;
-    /*align-content: space-around;*/
-    
+    cursor: pointer;
+    transition: all .3s;
+    border-radius: 3px;
+}
+
+.printer-name-button:hover {
+    color: rgb(250, 104, 49);
+    border-color: rgb(250, 104, 49) ;
 }
 
 .printer-name-button img {
@@ -188,27 +197,26 @@ nav ul li a:hover {
 
 .printer-name-button p {
     font-weight: 700;
-    /*margin: 10px 5px 20px 5px;*/
     font-size: 17px;
     text-align: center;
     min-height: 60px;
     padding: 4px 0 24px 0;
     line-height: 1.5;
-    
 }
 
-.printer-name-button a {
+.printer-name-button button {
     width: fit-content;
     margin-bottom: 20px;
     margin-top: 10px;
     color: rgb(250, 104, 49);
+    font-size: 17px;
     font-weight: 400;
     text-decoration: none;
     background-color: #fff;
     border: 1px solid rgb(250, 104, 49);
     padding: 10px 20px;
     align-self: center;
-
+    border-radius: 3px;
 }
 
 /*********Footer***********/
@@ -218,8 +226,10 @@ footer {
 }
 
 footer p {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     text-align: center;
-    color: #7c7c7c;  
+    color: #7c7c7c; 
+    padding: 4px; 
+    
 }
